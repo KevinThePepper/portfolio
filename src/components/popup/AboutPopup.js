@@ -1,10 +1,10 @@
-import { useContext } from "react";
-import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { context } from "../../context/context";
-import { testimonialSlider } from "../../sliderProps";
-import AnimatedText from "../AnimatedText";
-import Modal from "./Modal";
+import { useContext } from 'react';
+import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { context } from '../../context/context';
+import { testimonialSlider } from '../../sliderProps';
+import AnimatedText from '../AnimatedText';
+import Modal from './Modal';
 
 const AboutPopup = ({ open, close, aboutData }) => {
   const colorContext = useContext(context);
@@ -17,12 +17,12 @@ const AboutPopup = ({ open, close, aboutData }) => {
           <div className="left_inner">
             <div className="author">
               <div className="avatar_image">
-                <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/profile.jpg" />
+                <img src="/img/thumbs/1-1.jpg" alt="" />
+                <div className="main" data-img-url="/img/about/profile.jpg" />
               </div>
               <div className="short">
                 <h3 className="name">
-                  {aboutData.firstName}{" "}
+                  {aboutData.firstName}{' '}
                   <span className="coloring">{aboutData.lastName}</span>
                 </h3>
                 <h3 className="job">
@@ -77,7 +77,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </ul>
             </div>
             <div className="edrea_tm_button full">
-              <a href="img/about/profile.jpg" download>
+              <a href="/img/about/profile.jpg" download>
                 Download CV
               </a>
             </div>
@@ -95,19 +95,21 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>Kevin Shelley.</span> I am a software engineer with
-                  experience designing and implementing distributed systems. My primary
-                  skill set is in front-end development. I have developed multiple
-                  large-scale applications using React, NextJS, Shopify and Django. I
-                  also have experience designing back-end systems, implementing NodeJS,
-                  NestJS, Django and FastAPI applications connecting to services using
-                  Redis, Postgres, REST, GraphQL and SOAP.
+                  My name is <span>Kevin Shelley.</span> I am a software
+                  engineer with experience designing and implementing
+                  distributed systems. My primary skill set is in front-end
+                  development. I have developed multiple large-scale
+                  applications using React, NextJS, Shopify and Django. I also
+                  have experience designing back-end systems, implementing
+                  NodeJS, NestJS, Django and FastAPI applications connecting to
+                  services using Redis, Postgres, REST, GraphQL and SOAP.
                 </p>
                 <br></br>
                 <p>
-                  I am passionate about designing greenfield projects and abstracting tools
-                  for developers to use. I love working on a team of equally-passionate
-                  engineers to design systems and products with real-world impact.
+                  I am passionate about designing greenfield projects and
+                  abstracting tools for developers to use. I love working on a
+                  team of equally-passionate engineers to design systems and
+                  products with real-world impact.
                 </p>
               </div>
             </div>
@@ -263,29 +265,29 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
             </div>
             {aboutData.partnersLogos && (
-            <div className="partners">
-              <div className="about_title">
-                <h3>
-                  <span>
-                    My <span className="coloring">Partners</span>
-                  </span>
-                </h3>
+              <div className="partners">
+                <div className="about_title">
+                  <h3>
+                    <span>
+                      My <span className="coloring">Partners</span>
+                    </span>
+                  </h3>
+                </div>
+                <div className="list">
+                  <ul>
+                    {aboutData &&
+                      aboutData.partnersLogos &&
+                      aboutData.partnersLogos.map((logo, i) => (
+                        <li key={i}>
+                          <div className="list_inner">
+                            <img src={logo} alt="" />
+                            <a className="cavani_tm_full_link" href="#" />
+                          </div>
+                        </li>
+                      ))}
+                  </ul>
+                </div>
               </div>
-              <div className="list">
-                <ul>
-                  {aboutData &&
-                    aboutData.partnersLogos &&
-                    aboutData.partnersLogos.map((logo, i) => (
-                      <li key={i}>
-                        <div className="list_inner">
-                          <img src={logo} alt="" />
-                          <a className="cavani_tm_full_link" href="#" />
-                        </div>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-            </div>
             )}
             <div className="testimonial">
               <div className="about_title">
