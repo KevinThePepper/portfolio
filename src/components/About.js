@@ -12,17 +12,25 @@ const aboutData = {
   serviceLists: [
     'Website Development',
     'Distributed Systems',
-    'SEO',
     'Infrastructure',
     'Shared Web Hosting',
+    'Accessibility',
+    'SEO',
   ],
   skills: {
     programming: [
       { name: 'Typescript', value: '95' },
+      { name: 'JavaScript/ES6', value: '95' },
       { name: 'React', value: '90' },
       { name: 'Python', value: '90' },
-      { name: 'NextJS', value: '80' },
+      { name: 'HTML', value: '90' },
+      { name: 'CSS', value: '90' },
+      { name: 'SASS', value: '80' },
+      { name: 'NextJS', value: '70' },
+      { name: 'Postgres', value: '70' },
+      { name: 'MySQL', value: '70' },
       { name: 'Rust', value: '60' },
+      { name: 'DynamoDB', value: '30' },
     ],
     // language: [
     //   { name: "English", value: "95" },
@@ -100,14 +108,16 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>Kevin Shelley.</span> I am a software
-                  engineer with experience designing and implementing
-                  distributed systems. My primary skill set is in front-end
-                  development. I have developed multiple large-scale
-                  applications using React, NextJS, Shopify and Django. I also
-                  have experience designing back-end systems, implementing
-                  NodeJS, NestJS, Django and FastAPI applications connecting to
-                  services using Redis, Postgres, REST, GraphQL and SOAP.
+                  My name is <span>Kevin Shelley.</span>I am software engineer specializing in full stack web development
+                  with 10 years of industry experience in creating, maintaining, and optimizing projects. My passion is in
+                  designing and building innovative software solutions for web applications that are user-driven and
+                  accessible to anyone regardless of geolocation or OS preference. This focus on efficiency and accessibility
+                  is reflected in multi-million dollar projects that I developed while working for Fortune 100 tech companies
+                  such as Honeywell, as well as smaller private businesses such as GOLO.
+                </p>
+                <p>
+                  I am excited to use my years of experience in web development to learn new technology and continue to
+                  broaden my skill set.
                 </p>
               </div>
               <div className="edrea_tm_button">

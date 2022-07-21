@@ -271,7 +271,8 @@ h6 {
   padding: 0px 20px;
 }
 .edrea_tm_topbar .logo img {
-  max-width: 100px;
+  width: 40px;
+  max-width: 129px;
   max-height: 40px;
 }
 .edrea_tm_topbar .hamburger {
@@ -363,9 +364,52 @@ h6 {
   align-items: center;
   justify-content: space-between;
 }
-.edrea_tm_header .logo img {
-  max-width: 100px;
+
+.edrea_tm_header .logo .logo--ks {
+  height: 40px;
+  width: 129px;
 }
+
+.logo--ks {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.logo--ks .a {
+  opacity: 0.4;
+}
+
+.logo--ks .b {
+  fill: #1c75bc;
+}
+
+.logo--ks .c {
+  font-size: 17px;
+  fill: rgba(255, 255, 255, 0.8);
+  font-family: Poppins-Bold, Poppins;
+  font-weight: 700;
+}
+
+.logo--ks:hover .a,
+.logo--ks:hover .c {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.logo--ks:hover .a {
+  opacity: 1;
+}
+
+.logo--ks:hover .c {
+  fill: rgba(255, 255, 255, 1);
+}
+
 .edrea_tm_header .menu ul {
   margin: 0px;
   list-style-type: none;

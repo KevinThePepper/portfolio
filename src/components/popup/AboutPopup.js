@@ -10,6 +10,8 @@ const AboutPopup = ({ open, close, aboutData }) => {
   const colorContext = useContext(context);
   const { color } = colorContext;
 
+  const phoneNumber = aboutData.phn.replace(/-/g, "");
+
   return (
     <Modal open={open} close={close}>
       <div className="about_popup_details">
@@ -60,7 +62,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                   <div className="list_inner">
                     <i className="icon-phone" />
                     <span>
-                      <a href="#">{aboutData.phn}</a>
+                      <a href={`tel:${phoneNumber}`}>{aboutData.phn}</a>
                     </span>
                   </div>
                 </li>
@@ -77,7 +79,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </ul>
             </div>
             <div className="edrea_tm_button full">
-              <a href="/img/about/profile.jpg" download>
+              <a href="/img/about/resume.pdf" download>
                 Download CV
               </a>
             </div>
@@ -95,21 +97,18 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>Kevin Shelley.</span> I am a software
-                  engineer with experience designing and implementing
-                  distributed systems. My primary skill set is in front-end
-                  development. I have developed multiple large-scale
-                  applications using React, NextJS, Shopify and Django. I also
-                  have experience designing back-end systems, implementing
-                  NodeJS, NestJS, Django and FastAPI applications connecting to
-                  services using Redis, Postgres, REST, GraphQL and SOAP.
+                  My name is <span>Kevin Shelley.</span> I am software engineer specializing in full stack web
+                  development with 10 years of industry experience in creating, maintaining, and optimizing
+                  projects. My passion is in designing and building innovative software solutions for web
+                  applications that are user-driven and accessible to anyone regardless of geolocation or OS
+                  preference. This focus on efficiency and accessibility is reflected in multi-million dollar
+                  projects that I developed while working for Fortune 100 tech companies such as Honeywell, as
+                  well as smaller private businesses such as GOLO.
                 </p>
                 <br></br>
                 <p>
-                  I am passionate about designing greenfield projects and
-                  abstracting tools for developers to use. I love working on a
-                  team of equally-passionate engineers to design systems and
-                  products with real-world impact.
+                  I am excited to use my years of experience in web development to learn new technology and
+                  continue to broaden my skill set.
                 </p>
               </div>
             </div>
@@ -289,7 +288,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </div>
               </div>
             )}
-            <div className="testimonial">
+            {/* <div className="testimonial">
               <div className="about_title">
                 <h3>
                   <span>
@@ -371,7 +370,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                   </SwiperSlide>
                 </Swiper>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
