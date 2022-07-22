@@ -1,6 +1,8 @@
 import { Fragment, useContext, useState } from "react";
 import { context } from "../context/context";
 
+import { Logo } from "../components/svg/logo";
+
 const MobileHeader = () => {
   const [toggle, setToggle] = useState(false);
   const navContext = useContext(context);
@@ -18,7 +20,7 @@ const MobileHeader = () => {
         <div className="topbar_inner">
           <div className="logo">
             <a href="#">
-              <img src="img/logo/logo.png" alt="" />
+              <Logo />
             </a>
           </div>
           <div className="trigger">
@@ -48,7 +50,7 @@ const MobileHeader = () => {
                   About
                 </a>
               </li>
-              <li className={activeNav("portfolio")}>
+              {/* <li className={activeNav("portfolio")}>
                 <a href="#portfolio" onClick={() => onClick("portfolio")}>
                   Portfolio
                 </a>
@@ -57,7 +59,7 @@ const MobileHeader = () => {
                 <a href="#news" onClick={() => onClick("news")}>
                   News
                 </a>
-              </li>
+              </li> */}
               <li className={activeNav("contact")}>
                 <a href="#contact" onClick={() => onClick("contact")}>
                   Contact
