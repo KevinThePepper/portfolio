@@ -28,7 +28,7 @@ const Header = () => {
                 About
               </a>
             </li>
-            <li className={activeNav("portfolio")}>
+            {/* <li className={activeNav("portfolio")}>
               <a href="#portfolio" onClick={() => changeNav("portfolio")}>
                 Portfolio
               </a>
@@ -37,7 +37,7 @@ const Header = () => {
               <a href="#news" onClick={() => changeNav("news")}>
                 News
               </a>
-            </li>
+            </li> */}
             <li className={activeNav("contact")}>
               <a href="#contact" onClick={() => changeNav("contact")}>
                 Contact
