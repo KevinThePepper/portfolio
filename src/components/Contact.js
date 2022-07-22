@@ -39,9 +39,9 @@ const Contact = () => {
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-facebook-rect" />
+                    <i className="icon-linkedin-1" />
                     <span>
-                      <a href="https://www.facebook.com">@facebookNick</a>
+                      <a href="https://www.linkedin.com/in/kevin-shelley" target="_blank">kevin-shelley</a>
                     </span>
                   </div>
                 </li>
