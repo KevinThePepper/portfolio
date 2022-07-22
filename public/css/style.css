@@ -365,7 +365,7 @@ h6 {
   justify-content: space-between;
 }
 
-.edrea_tm_header .logo .logo--ks {
+.logo .logo--ks {
   height: 40px;
   width: 129px;
 }
@@ -408,6 +408,13 @@ h6 {
 
 .logo--ks:hover .c {
   fill: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (max-width: 768px) {
+  .logo .logo--ks {
+    width: 80px;
+    padding-top: 0.5em;
+  }
 }
 
 .edrea_tm_header .menu ul {
@@ -2072,6 +2079,8 @@ h6 {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+
+  display: none;  /* TODO: REMOVE AFTER FIGURING OUT COLOR */
 }
 .edrea_tm_settings.opened {
   right: 0px;
