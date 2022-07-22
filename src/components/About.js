@@ -11,6 +11,7 @@ const aboutData = {
   email: 'kevin.shelley@pm.me',
   serviceLists: [
     'Website Development',
+    'Web APIs',
     'Distributed Systems',
     'Infrastructure',
     'Shared Web Hosting',
