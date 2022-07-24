@@ -66,6 +66,7 @@ $timeline-line-color: #8f96a3 !default;
             &__item {
                 border: 2px solid $timeline-line-color;
                 border-radius: 20px;
+                display: ruby;
                 font-weight: 700;
                 padding: 4px 16px;
 
