@@ -41,7 +41,9 @@ export const customCursor = () => {
   }
   if (myCursor.length) {
     if (document.body) {
-      let o = !1;
+      let n, // eslint-disable-line no-unused-vars
+        i = 0, // eslint-disable-line no-unused-vars
+        o = !1;
       (window.onmousemove = function (s) {
         // console.log(document.querySelector(this));
         o ||
