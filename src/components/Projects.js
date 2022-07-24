@@ -16,163 +16,159 @@ const projectData = {
       ],
       skills: [
         "Liquid",
-        "React",
         "NestJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
         "NodeJS",
         "HTML",
         "CSS",
         "SCSS",
+        "ReactJS",
+        "Redux",
         "JavaScript",
+        "TypeScript",
+        "Webpack",
+        "Babel",
+        "GraphQL"
       ]
     },
     {
-      title: "myGOLO Metabolic Health Assessment",
+      title: "Cadence",
       company: "GOLO, LLC",
-      startYear: "2021",
-      endYear: "2022",
       tasks: [
-        "Developed interactive assessments",
-        "Did something else",
-        "Did another thing"
+        "Automated customized task management server",
+        "Uses Selenium and requests to test web pages and APIs",
+        "Automates test orders and website snapshots",
+        "Parses status pages and webhooks for service uptime",
+        "Notifies admin team of outages within 1 minute of failed service"
       ],
       skills: [
-        "Liquid",
-        "React",
-        "NestJS"
+        "Python3",
+        "Selenium",
+        "FastAPI",
+        "Heroku",
+        "GraphQL",
+        "REST"
       ]
     },
     {
-      title: "myGOLO Customer Health Portal",
-      company: "GOLO, LLC",
-      link: "https://www.golo.com",
+      title: "Shopify Process API",
       tasks: [
-        "Developed interactive assessments tailored to each customer",
-        "Manages customer health data to create goals and measure progress",
-        "Integration with SalesForce, Shopify, and other third-party applications"
+        "API layer between Shopify and external applications",
+        "Customized functionality of Shopify Admin and Storefront APIs within a centralized source",
+        "Process layer used as an intermediary API to transition applications away from Shopify",
+        "Custom GraphQL pagination using relay cursor connection specification"
       ],
       skills: [
-        "Liquid",
-        "React",
         "NestJS",
         "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "HTML",
-        "CSS",
-        "SCSS",
+        "TypeScript",
         "JavaScript",
+        "GraphQL",
+        "REST",
+        "Postgres",
+        "Redis"
       ]
     },
     {
-      title: "myGOLO Customer Health Portal",
-      company: "GOLO, LLC",
-      link: "https://www.golo.com",
+      title: "SRCA Inventory Portal",
+      company: "Saudi Red Crescent Authority (SRCA)",
       tasks: [
-        "Developed interactive assessments tailored to each customer",
-        "Manages customer health data to create goals and measure progress",
-        "Integration with SalesForce, Shopify, and other third-party applications"
+        "Manage inventory of medical and office supplies",
+        "Checks volunteers and medical supplies in and out via QR codes",
+        "Tracks status of supplies to proactively restock and maintain"
       ],
       skills: [
-        "Liquid",
-        "React",
-        "NestJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
+        "Django",
+        "Python3",
+        "REST",
+        "Jinja",
         "HTML",
-        "CSS",
         "SCSS",
-        "JavaScript",
+        "JavaScript"
       ]
     },
     {
-      title: "myGOLO Customer Health Portal",
-      company: "GOLO, LLC",
-      link: "https://www.golo.com",
+      title: "Smart MOOCs - Difficult Concepts",
+      company: "University of Illinois Urbana-Champaign",
       tasks: [
-        "Developed interactive assessments tailored to each customer",
-        "Manages customer health data to create goals and measure progress",
-        "Integration with SalesForce, Shopify, and other third-party applications"
+        "Website used to view and track click streams on MOOCs",
+        "Used click-stream data in ML algorithm to determine difficulty of topics",
+        "Feedback sent back to professors to adjust lectures to accomodate for more difficult topics"
       ],
       skills: [
-        "Liquid",
-        "React",
-        "NestJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "HTML",
-        "CSS",
-        "SCSS",
-        "JavaScript",
+        "ReactJS",
+        "NextJS",
+        "Redux",
+        "REST",
+        "Postgres",
+        "NLP"
       ]
     },
     {
-      title: "myGOLO Customer Health Portal",
-      company: "GOLO, LLC",
-      link: "https://www.golo.com",
+      title: "Business Aviation (BA) Forge",
+      company: "Honeywell",
+      link: "https://www.honeywellforge.ai/",
       tasks: [
-        "Developed interactive assessments tailored to each customer",
-        "Manages customer health data to create goals and measure progress",
-        "Integration with SalesForce, Shopify, and other third-party applications"
+        "Customer CMS for managing aircraft assets and analytics",
+        "Connect assets, people and processes to deliver a system of record of business operations",
+        "A combination of analytics and machine learning to proactively monitor aircraft assets",
+        "Customer-specific interface that changes based on services paid for",
+        "Integrate dashboard with teams and proprietary applications across the company"
       ],
       skills: [
-        "Liquid",
-        "React",
+        "ReactJS",
+        "Redux",
         "NestJS",
         "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "HTML",
-        "CSS",
-        "SCSS",
         "JavaScript",
+        "TypeScript",
+        "REST",
+        "GraphQL",
+        "FastAPI",
+        "Python3"
       ]
     },
-    {
-      title: "myGOLO Customer Health Portal",
-      company: "GOLO, LLC",
-      link: "https://www.golo.com",
-      tasks: [
-        "Developed interactive assessments tailored to each customer",
-        "Manages customer health data to create goals and measure progress",
-        "Integration with SalesForce, Shopify, and other third-party applications"
-      ],
-      skills: [
-        "Liquid",
-        "React",
-        "NestJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "NodeJS",
-        "HTML",
-        "CSS",
-        "SCSS",
-        "JavaScript",
-      ]
-    },
+    // {
+    //   title: "Traffic Parsing Module (TPM)",
+    //   company: "Honeywell",
+    //   tasks: [
+    //   ],
+    //   skills: [
+    //   ]
+    // },
+    // {
+    //   title: "Imagery of Natural Systems (IONS)",
+    //   company: "Planet.com",
+    //   tasks: [
+    //   ],
+    //   skills: [
+    //   ]
+    // },
+    // {
+    //   title: "CodeDevils Website",
+    //   company: "CodeDevils",
+    //   link: "https://www.codedevils.org",
+    //   tasks: [
+    //   ],
+    //   skills: [
+    //   ]
+    // },
+    // {
+    //   title: "FieldDay ",
+    //   company: "CodeDevils",
+    //   link: "https://www.codedevils.org",
+    //   tasks: [
+    //   ],
+    //   skills: [
+    //   ]
+    // },
   ]
 }
 
 const Projects = () => {
   return (
     <Fragment>
-      <div className="edrea_tm_section projects hidden animated" id="projects">
-        <section className="section_inner">
+      <div className="edrea_tm_section hidden animated" id="projects">
+        <section className="section_inner projects">
           <div className="edrea_tm_about">
             <div className="left projects__title">
               <h2>Projects</h2>
