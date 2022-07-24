@@ -1,5 +1,4 @@
 import { Fragment, useState } from "react";
-import Image from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { newsSlider } from "../sliderProps";
@@ -93,7 +92,7 @@ const News = () => {
                     <SwiperSlide className="swiper-slide" key={i}>
                       <div className="list_inner">
                         <div className="image">
-                          <Image src="img/thumbs/4-3.jpg" alt="" />
+                          <img src="img/thumbs/4-3.jpg" alt="" />
                           <div className="main" data-img-url={news.img} />
                           <a
                             className="edrea_tm_full_link news_popup"

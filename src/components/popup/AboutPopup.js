@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
-import Image from "next/image";
 
 import { context } from "../../context/context";
 import AnimatedText from "../AnimatedText";
@@ -19,7 +18,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
           <div className="left_inner">
             <div className="author">
               <div className="avatar_image">
-                <Image src="/img/thumbs/1-1.jpg" alt="" />
+                <img src="/img/thumbs/1-1.jpg" alt="" />
                 <div className="main" data-img-url="/img/about/profile.jpg" />
               </div>
               <div className="short">
@@ -282,7 +281,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       aboutData.partnersLogos.map((logo, i) => (
                         <li key={i}>
                           <div className="list_inner">
-                            <Image src={logo} alt="" />
+                            <img src={logo} alt="" />
                             <a className="cavani_tm_full_link" href="#" />
                           </div>
                         </li>

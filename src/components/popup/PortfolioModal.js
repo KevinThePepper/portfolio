@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Modal from "./Modal";
 
 const PortfolioModal = ({ close, open }) => {
@@ -7,7 +5,7 @@ const PortfolioModal = ({ close, open }) => {
     <Modal close={close} open={open}>
       <div className="portfolio_popup_details">
         <div className="top_image">
-          <Image src="img/thumbs/4-2.jpg" alt="" />
+          <img src="img/thumbs/4-2.jpg" alt="" />
           <div className="main" data-img-url="img/portfolio/4.jpg" />
         </div>
         <div className="portfolio_main_title">
@@ -39,7 +37,7 @@ const PortfolioModal = ({ close, open }) => {
             <li>
               <div className="list_inner">
                 <div className="image">
-                  <Image src="img/thumbs/4-2.jpg" alt="" />
+                  <img src="img/thumbs/4-2.jpg" alt="" />
                   <div className="main" data-img-url="img/portfolio/7.jpg" />
                   <a
                     className="edrea_tm_full_link zoom"
@@ -51,7 +49,7 @@ const PortfolioModal = ({ close, open }) => {
             <li>
               <div className="list_inner">
                 <div className="image">
-                  <Image src="img/thumbs/4-2.jpg" alt="" />
+                  <img src="img/thumbs/4-2.jpg" alt="" />
                   <div className="main" data-img-url="img/portfolio/8.jpg" />
                   <a
                     className="edrea_tm_full_link zoom"
@@ -63,7 +61,7 @@ const PortfolioModal = ({ close, open }) => {
             <li>
               <div className="list_inner">
                 <div className="image">
-                  <Image src="img/thumbs/4-2.jpg" alt="" />
+                  <img src="img/thumbs/4-2.jpg" alt="" />
                   <div className="main" data-img-url="img/portfolio/9.jpg" />
                   <a
                     className="edrea_tm_full_link zoom"

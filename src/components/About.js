@@ -1,5 +1,4 @@
 import { Fragment, useState } from "react";
-import Image from "next/image";
 
 import AnimatedText from "./AnimatedText";
 import AboutPopup from "./popup/AboutPopup";
@@ -95,7 +94,7 @@ const About = () => {
           <div className="edrea_tm_about">
             <div className="left">
               <div className="image">
-                <Image src="/img/thumbs/1-1.jpg" alt="" />
+                <img src="/img/thumbs/1-1.jpg" alt="" />
                 <div className="main" data-img-url="/img/about/profile.jpg" />
               </div>
             </div>

@@ -1,5 +1,4 @@
 import { Fragment, useState } from "react";
-import Image from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { portfolioSlider } from "../sliderProps";
@@ -24,7 +23,7 @@ const Portfolio = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="list_inner">
                       <div className="image">
-                        <Image src="img/thumbs/1-1.jpg" alt="" />
+                        <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
                           data-img-url="img/portfolio/1.jpg"
@@ -43,7 +42,7 @@ const Portfolio = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="list_inner">
                       <div className="image">
-                        <Image src="img/thumbs/1-1.jpg" alt="" />
+                        <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
                           data-img-url="img/portfolio/2.jpg"
@@ -62,7 +61,7 @@ const Portfolio = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="list_inner">
                       <div className="image">
-                        <Image src="img/thumbs/1-1.jpg" alt="" />
+                        <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
                           data-img-url="img/portfolio/3.jpg"
@@ -81,7 +80,7 @@ const Portfolio = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="list_inner">
                       <div className="image">
-                        <Image src="img/thumbs/1-1.jpg" alt="" />
+                        <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
                           data-img-url="img/portfolio/4.jpg"
@@ -101,7 +100,7 @@ const Portfolio = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="list_inner">
                       <div className="image">
-                        <Image src="img/thumbs/1-1.jpg" alt="" />
+                        <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
                           data-img-url="img/portfolio/5.jpg"
@@ -120,7 +119,7 @@ const Portfolio = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="list_inner">
                       <div className="image">
-                        <Image src="img/thumbs/1-1.jpg" alt="" />
+                        <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
                           data-img-url="img/portfolio/6.jpg"
