@@ -37,6 +37,7 @@ const state = (props) => {
     color: "#4169e1",
     megicCursor: "show",
   };
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const changeNav = (value) => {

@@ -1,7 +1,4 @@
-import { Fragment, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { portfolioSlider } from "../sliderProps";
-import PortfolioModal from "./popup/PortfolioModal";
+import { Fragment } from "react";
 
 const projectData = {
   projects: [
@@ -46,7 +43,8 @@ const projectData = {
         "FastAPI",
         "Heroku",
         "GraphQL",
-        "REST"
+        "REST",
+        "SFTP"
       ]
     },
     {
@@ -127,40 +125,53 @@ const projectData = {
         "Python3"
       ]
     },
-    // {
-    //   title: "Traffic Parsing Module (TPM)",
-    //   company: "Honeywell",
-    //   tasks: [
-    //   ],
-    //   skills: [
-    //   ]
-    // },
-    // {
-    //   title: "Imagery of Natural Systems (IONS)",
-    //   company: "Planet.com",
-    //   tasks: [
-    //   ],
-    //   skills: [
-    //   ]
-    // },
-    // {
-    //   title: "CodeDevils Website",
-    //   company: "CodeDevils",
-    //   link: "https://www.codedevils.org",
-    //   tasks: [
-    //   ],
-    //   skills: [
-    //   ]
-    // },
-    // {
-    //   title: "FieldDay ",
-    //   company: "CodeDevils",
-    //   link: "https://www.codedevils.org",
-    //   tasks: [
-    //   ],
-    //   skills: [
-    //   ]
-    // },
+    {
+      title: "Traffic Parsing Module (TPM)",
+      company: "Honeywell",
+      tasks: [
+        "Collection and aggregation of data from multiple third-party data sources",
+        "Utilizes of GraphQL, RESTful SOAP, SFTP, and other data protocols to obtain data",
+        "Aggregates records for hundreds of thousands of customers",
+        "Aggregated data used by billing and customer support within proprietary customer management software"
+      ],
+      skills: [
+        "Python3",
+        "Django",
+        "MySQL",
+        "Linux",
+        "Bash",
+        "GraphQL",
+        "REST",
+        "SOAP",
+        "SFTP"
+      ]
+    },
+    {
+      title: "Imagery of Natural Systems (IONS)",
+      company: "Planet.com",
+      tasks: [
+      ],
+      skills: [
+      ]
+    },
+    {
+      title: "CodeDevils Website",
+      company: "CodeDevils",
+      link: "https://www.codedevils.org",
+      tasks: [
+      ],
+      skills: [
+      ]
+    },
+    {
+      title: "FieldDay ",
+      company: "CodeDevils",
+      link: "https://www.codedevils.org",
+      tasks: [
+      ],
+      skills: [
+      ]
+    },
   ]
 }
 
@@ -189,7 +200,7 @@ const Projects = () => {
                     {project.skills && (
                       <div className="projects__listing__skills">
                         {project.skills.map((skill, index) => (
-                          <span className="projects__listing__skills__item">
+                          <span key={index} className="projects__listing__skills__item">
                             {skill}
                           </span>
                         ))}

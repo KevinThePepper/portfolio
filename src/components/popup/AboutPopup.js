@@ -1,10 +1,10 @@
-import { useContext } from 'react';
-import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { context } from '../../context/context';
-import { testimonialSlider } from '../../sliderProps';
-import AnimatedText from '../AnimatedText';
-import Modal from './Modal';
+import { useContext } from "react";
+import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
+import Image from "next/image";
+
+import { context } from "../../context/context";
+import AnimatedText from "../AnimatedText";
+import Modal from "./Modal";
 
 const AboutPopup = ({ open, close, aboutData }) => {
   const colorContext = useContext(context);
@@ -19,12 +19,12 @@ const AboutPopup = ({ open, close, aboutData }) => {
           <div className="left_inner">
             <div className="author">
               <div className="avatar_image">
-                <img src="/img/thumbs/1-1.jpg" alt="" />
+                <Image src="/img/thumbs/1-1.jpg" alt="" />
                 <div className="main" data-img-url="/img/about/profile.jpg" />
               </div>
               <div className="short">
                 <h3 className="name">
-                  {aboutData.firstName}{' '}
+                  {aboutData.firstName}{" "}
                   <span className="coloring">{aboutData.lastName}</span>
                 </h3>
                 <h3 className="job">
@@ -97,18 +97,21 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>Kevin Shelley.</span> I am software engineer specializing in full stack web
-                  development with 10 years of industry experience in creating, maintaining, and optimizing
-                  projects. My passion is in designing and building innovative software solutions for web
-                  applications that are user-driven and accessible to anyone regardless of geolocation or OS
-                  preference. This focus on efficiency and accessibility is reflected in multi-million dollar
-                  projects that I developed while working for Fortune 100 tech companies such as Honeywell, as
-                  well as smaller private businesses such as GOLO.
+                  My name is <span>Kevin Shelley.</span> I am software engineer
+                  specializing in full stack web development with 10 years of
+                  industry experience in creating, maintaining, and optimizing
+                  projects. My passion is in designing and building innovative
+                  software solutions for web applications that are user-driven
+                  and accessible to anyone regardless of geolocation or OS
+                  preference. This focus on efficiency and accessibility is
+                  reflected in multi-million dollar projects that I developed
+                  while working for Fortune 100 tech companies such as
+                  Honeywell, as well as smaller private businesses such as GOLO.
                 </p>
                 <br></br>
                 <p>
-                  I am excited to use my years of experience in web development to learn new technology and
-                  continue to broaden my skill set.
+                  I am excited to use my years of experience in web development
+                  to learn new technology and continue to broaden my skill set.
                 </p>
               </div>
             </div>
@@ -279,7 +282,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       aboutData.partnersLogos.map((logo, i) => (
                         <li key={i}>
                           <div className="list_inner">
-                            <img src={logo} alt="" />
+                            <Image src={logo} alt="" />
                             <a className="cavani_tm_full_link" href="#" />
                           </div>
                         </li>

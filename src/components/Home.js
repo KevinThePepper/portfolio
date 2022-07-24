@@ -8,7 +8,7 @@ const homeData = {
   skills: ["Developer", "Engineer", "Architect"],
 };
 
-const Home = ({ activeWithBtn }) => {
+const Home = () => {
   const navContext = useContext(context);
   const { changeNav } = navContext;
 

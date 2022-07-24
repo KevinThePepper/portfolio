@@ -1,3 +1,5 @@
+/* eslint-disable react/no-find-dom-node */
+
 import ReactDOM from "react-dom";
 const preloader_ = () => {
   let isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(
@@ -39,9 +41,7 @@ export const customCursor = () => {
   }
   if (myCursor.length) {
     if (document.body) {
-      let n,
-        i = 0,
-        o = !1;
+      let o = !1;
       (window.onmousemove = function (s) {
         // console.log(document.querySelector(this));
         o ||

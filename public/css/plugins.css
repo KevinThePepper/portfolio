@@ -7406,6 +7406,7 @@ input[type="button"] {
   z-index: 1043;
   outline: 0 !important;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .mfp-container {
   text-align: center;
@@ -9408,6 +9409,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 body {
   /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .animated {
   -webkit-animation-duration: 1s;

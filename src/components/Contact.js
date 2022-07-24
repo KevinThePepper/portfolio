@@ -33,7 +33,9 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
-                      <a href="mailto:kevin.shelley@pm.me">kevin.shelley@pm.me</a>
+                      <a href="mailto:kevin.shelley@pm.me">
+                        kevin.shelley@pm.me
+                      </a>
                     </span>
                   </div>
                 </li>
@@ -41,7 +43,13 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-linkedin-1" />
                     <span>
-                      <a href="https://www.linkedin.com/in/kevin-shelley" target="_blank">kevin-shelley</a>
+                      <a
+                        href="https://www.linkedin.com/in/kevin-shelley"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        kevin-shelley
+                      </a>
                     </span>
                   </div>
                 </li>

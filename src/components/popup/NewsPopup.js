@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import Modal from "./Modal";
 
 const NewsPopup = ({ data, open, close }) => {
@@ -5,7 +7,7 @@ const NewsPopup = ({ data, open, close }) => {
     <Modal open={open} close={close}>
       <div className="news_popup_details">
         <div className="top_image">
-          <img src="img/thumbs/4-2.jpg" alt="" />
+          <Image src="img/thumbs/4-2.jpg" alt="" />
           <div
             className="main"
             data-img-url={data && data.img}
