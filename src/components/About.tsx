@@ -22,7 +22,7 @@ const aboutData = {
   skills: {
     programming: [
       { name: "Typescript", value: "95" },
-      { name: "JavaScript/ES6", value: "95" },
+      { name: "JavaScript", value: "95" },
       { name: "React", value: "90" },
       { name: "Python", value: "90" },
       { name: "HTML", value: "90" },
@@ -32,13 +32,10 @@ const aboutData = {
       { name: "Postgres", value: "70" },
       { name: "MySQL", value: "70" },
       { name: "Rust", value: "60" },
+      { name: "AWS", value: "50" },
+      { name: "C/C++", value: "40" },
       { name: "DynamoDB", value: "30" },
     ],
-    // language: [
-    //   { name: "English", value: "95" },
-    //   { name: "Russian", value: "80" },
-    //   { name: "Arabic", value: "90" },
-    // ],
   },
   education: [
     {
@@ -72,12 +69,6 @@ const aboutData = {
       deg: "Systems Engineer",
     },
   ],
-  // partnersLogos: [
-  //   "img/partners/1.png",
-  //   "img/partners/2.png",
-  //   "img/partners/3.png",
-  //   "img/partners/4.png",
-  // ],
 };
 
 const About = () => {

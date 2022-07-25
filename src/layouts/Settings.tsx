@@ -40,7 +40,7 @@ const Settings = () => {
                 key={i}
                 href="#"
                 data-color={color}
-                style={{ backgroundColor: color, marginRight: `5px` }}
+                style={{ backgroundColor: color, marginRight: "5px" }}
                 onClick={() => colorChange(color)}
               />
             </li>

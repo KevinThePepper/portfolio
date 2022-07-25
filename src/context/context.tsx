@@ -6,7 +6,11 @@ const type = {
 
 import { createContext, useReducer } from "react";
 import { activeSection } from "../utilits";
-const context = createContext();
+import { IAppContext } from "./context.types";
+
+/* eslint-disable no-unused-vars */
+const context = createContext<IAppContext>({});
+/* eslint-enable */
 
 const reducer = (state, action) => {
   switch (action.type) {
