@@ -97,15 +97,14 @@ const AboutPopup = ({ open, close, aboutData }) => {
               <div className="text">
                 <p>
                   My name is <span>Kevin Shelley.</span> I am a software
-                  engineer specializing in full stack web development with 10
-                  years of industry experience in creating, maintaining, and
-                  optimizing projects. My passion is in designing and building
-                  innovative software solutions for web applications that are
-                  user-driven and accessible to anyone regardless of geolocation
-                  or OS preference. This focus on efficiency and accessibility
-                  is reflected in multi-million dollar projects that I developed
-                  while working for Fortune 100 tech companies such as
-                  Honeywell, as well as smaller private businesses such as GOLO.
+                  engineer with 10 years of industry experience, specializing in
+                  full stack web development. My passion lies in designing and
+                  building innovative software solutions for web applications
+                  that cater to users across the globe and on various operating
+                  systems. This commitment to efficiency and accessibility is
+                  evident in the multi-million dollar projects I have developed
+                  while working for Fortune 100 tech companies like Honeywell,
+                  as well as smaller private businesses such as GOLO.
                 </p>
                 <br></br>
                 <p>
