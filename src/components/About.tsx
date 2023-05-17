@@ -34,6 +34,7 @@ const aboutData = {
       { name: "Rust", value: "60" },
       { name: "AWS", value: "50" },
       { name: "C/C++", value: "40" },
+      { name: "C#/.Net Core", value: "30" },
       { name: "DynamoDB", value: "30" },
     ],
   },
