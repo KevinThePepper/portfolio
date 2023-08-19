@@ -4,6 +4,8 @@ import Home from "../src/components/Home";
 import Projects from "../src/components/Projects";
 import Layout from "../src/layouts/Layout";
 
+export const runtime = "edge";
+
 const Index = () => {
   return (
     <Layout>
